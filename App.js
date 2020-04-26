@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Contants from 'expo-constants';
-import {home} from './views/home'
+import Contants from 'expo-constants'
+import { Home } from './views/home'
 export default function App() {
   return (
     <View style={styles.container}>

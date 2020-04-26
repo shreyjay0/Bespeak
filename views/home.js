@@ -6,7 +6,7 @@ import Contants from 'expo-constants';
 const Home=() => {
   return (
     <View style={styles.container}>
-      <Text style={{fontSize: 15}}>Home</Text>
+      <Text style={{fontSize: 15  }}>Home</Text>
     </View>
 
   );
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export {home};
+export { Home }
