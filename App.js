@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Contants from 'expo-constants'
 import { Home } from './views/home'
 import { StackNavigator} from 'react-navigation'
-import 
+import login from './Screens/login'
 
 export default class App extends React.component { render(){
   return (
@@ -12,8 +12,8 @@ export default class App extends React.component { render(){
   }
 }
 
-const AppNavigator = StackNavigator({
-  login: {Screen: login}
+const AppNavigator = StackNavigator(
+  {login: {Screen: login}
   })
 
 const styles = StyleSheet.create({
