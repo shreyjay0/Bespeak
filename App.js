@@ -2,18 +2,24 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Contants from 'expo-constants'
 import { Home } from './views/home'
-export default function App() {
+import { StackNavigator} from 'react-navigation'
+import 
+
+export default class App extends React.component { render(){
   return (
-    <View style={styles.container}>
-      <Text>Bespeak</Text>
-    </View>
+    <AppNavigator />
   );
+  }
 }
+
+const AppNavigator = StackNavigator({
+  login: {Screen: login}
+  })
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#E7AA9F',
     alignItems: 'center'
   },
 });
