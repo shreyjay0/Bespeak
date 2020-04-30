@@ -18,11 +18,11 @@ static navigationOptions ={
  style={{flex:1}}>
 
 <View style={{flex:1, justifyContent: 'center', alignItems: 'center'}}>
-       <View style={{flex:1, justifyContent: 'center', alignItems: 'center'}}>
+       <View style={{height: 70; backgroundColor: #ed6d64, justifyContent: 'center', paddingHorizontal: 30, alignItems: 'center', borderWidth: 2, borderColor: '#ed6d64'}}>
 
        </View>
  <View style={{flex:1, justifyContent: 'center', alignItems: 'center'}}>
-       text
+       <Text style= {{color: '#000', fontSize: 20 }}>
        </View>
 
        </View>
